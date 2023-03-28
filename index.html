@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Our gaming website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+<body onload="dNone(); myStore(); scrollHide()" onscroll="scrollHide()">
+  <div class="main">
+    <div class="navigation">
+        <img src="images/logo.png" lialt="" width="300px" height="150px" />
+    <div class="nav-bar">
+      <ul>
+        <li><a href="#" style="color: palegreen">HOME</a></li>
+        <li><a href="#our-services">OUR SERVICE</a></li>
+        <li><a href="#our-store">STORE</a></li>
+        <li><a href="#our-store">TOP GAMES</a></li>
+        <li><a href="#contact-us">CONTACT US</a></li>
+      </ul>
+    </div>
+      <input type="text" placeholder="Search" name="search-bar" id="search-bar">
+      <span><img src="images/search.png" alt="" width="50px" height="30px" onclick="myFunction()" id="img"></span>
+        <span><img src="images/close (1).png" alt="" width="25px" height="25px" onclick="cross()" id="img2"></span>
+        <button id="subscribe"><a href="subscribe.html">SUBSCRIBE</a></button>
+      </div>
+      <div class="header">
+        <video autoplay loop muted class="bg-video">
+          <source src="images/video.mp4" type="video/mp4" />
+        </video>
+        <div class="heading">
+          <h1>try new open world games with high end graphics.</h1>
+          <a href="#our-store">Check Store</a>
+          <h1></h1>
+        </div>
+      </div>
+<div class="index">
+<!-- Our services....... -->
+<div class="Services" id="our-services">
+  <h2>Our Services</h2>
+  <div class="service-cards">
+    <div class="s-card1">
+      <img src="images/service-img.jpg" alt="">
+      <h3>Ship on all platforms with a universal set of services</h3>
+      <p>Access free services including voice chat, achievements, matchmaking, live ops,
+        and more. Game services support all platforms all stores, and all identity services
+        including your own game store on the engine of your choice.
+      </p>
+      <a href="#">Learn more</a>
+    </div>
+    <div class="s-card2">
+      <img src="images/service-img2.jpg" alt="">
+      <h3>Over 500 million players and 2.7 billion cross-platform friendships</h3>
+      <p>Connect players with their friends across all  platforms and all stores using store free
+        shared account service. Players can log in using accounts from playStation, xbox, switch,
+        stream, and epic.
+      </p>
+      <a href="#">Learn more</a>
+    </div>
+    <div class="s-card3">
+      <img src="images/service-img3.jpg" alt="">
+      <h3>Build for a connected future used by 100 of games at massive scale.</h3>
+      <p>Free high quality cross platform service we want to encourage developers to strengthen gaming communities 
+        , friendships and grow the entire audience with virtual reality (VR) and also (AR).
+      </p>
+      <a href="#">Learn more</a>
+
+    </div>
+  </div>
+</div>
+
+<!-- //Our store content..... -->
+
+<div class="store" id="our-store">
+    <h2>Our Store</h2>
+    <div id="pop-bg" class="pop-bg">
+      <div id="popup" class="popup"> 
+        <div class="popup-img"><img src="images/game3.jpg" alt=""></div>
+        <div class="popup-matter">
+          <span><img src="images/closing.png" alt="" width="40px" height="40px" onclick="popClose()"></span>
+          <h2>Call of duty Black Ops 3</h2>
+          <span style="color: red; font-size: 25px;">Treyarch</span><br>
+          <img src="images/rating-star.png" alt="" width="150px" height="30px">
+          <h3><span>16+</span>Rating</h3>
+          <h4><s>$15</s>&nbsp; &nbsp;$10</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti, hic excepturi, placeat harum rerum omnis, voluptas saepe ea maiores nemo doloremque? Adipisci possimus ipsam ipsum doloribus quaerat blanditiis repellat cum quo at ex mollitia beatae a libero, incidunt soluta ad saepe error! Blanditiis explicabo dignissimos amet debitis illo tenetur praesentium, expedita aspernatur dolor dolorum aliquid, dolorem ipsum. Dolore sit tempora amet placeat aspernatur hic, adipisci unde esse nesciunt impedit, saepe repellat molestias, perspiciatis sapiente rerum accusantium suscipit alias corporis! Mollitia, reprehenderit in repellendus eligendi sequi exercitationem accusamus corporis nisi dolor nam odit voluptatem quia quod vitae iure non quisquam eaque doloremque ad voluptatibus cupiditate maiores? Saepe in porro ex quia doloremque corporis cupiditate voluptas veniam. Quas officiis rerum provident.</p>
+          <a href="#">See more</a><br>
+          <a href="payment-form.html"><button onclick="myPayment()">Buy now</button></a>
+        </div>
+      </div>
+    </div> 
+
+    <div id="pop-bg1" class="pop-bg">
+      <div id="popup1" class="popup">
+        <div class="popup-img"><img src="images/game4.jpg" alt=""></div>
+        <div class="popup-matter">
+          <span><img src="images/closing.png" alt="" width="40px" height="40px" onclick="popClose()"></span>
+          <h2>Vanquish</h2>
+          <span style="color: red; font-size: 25px;">Treyarch</span><br>
+          <img src="images/rating-star.png" alt="" width="150px" height="30px">
+          <h3><span>16+</span>Rating</h3>
+          <h4><s>$15</s>&nbsp; &nbsp;$10</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti, hic excepturi, placeat harum rerum omnis, voluptas saepe ea maiores nemo doloremque? Adipisci possimus ipsam ipsum doloribus quaerat blanditiis repellat cum quo at ex mollitia beatae a libero, incidunt soluta ad saepe error! Blanditiis explicabo dignissimos amet debitis illo tenetur praesentium, expedita aspernatur dolor dolorum aliquid, dolorem ipsum. Dolore sit tempora amet placeat aspernatur hic, adipisci unde esse nesciunt impedit, saepe repellat molestias, perspiciatis sapiente rerum accusantium suscipit alias corporis! Mollitia, reprehenderit in repellendus eligendi sequi exercitationem accusamus corporis nisi dolor nam odit voluptatem quia quod vitae iure non quisquam eaque doloremque ad voluptatibus cupiditate maiores? Saepe in porro ex quia doloremque corporis cupiditate voluptas veniam. Quas officiis rerum provident.</p>
+          <a href="#">See more</a><br>
+          <a href="payment-form.html"><button>Buy now</button></a>
+        </div>
+      </div>
+    </div> 
+
+    <div id="pop-bg2" class="pop-bg">
+      <div id="popup2" class="popup">
+        <div class="popup-img"><img src="images/game5.jpg" alt=""></div>
+        <div class="popup-matter">
+          <span><img src="images/closing.png" alt="" width="40px" height="40px" onclick="popClose()"></span>
+          <h2>Roblox</h2>
+          <span style="color: red; font-size: 25px;">Treyarch</span><br>
+          <img src="images/rating-star.png" alt="" width="150px" height="30px">
+          <h3><span>16+</span>Rating</h3>
+          <h4><s>$15</s>&nbsp; &nbsp;$10</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti, hic excepturi, placeat harum rerum omnis, voluptas saepe ea maiores nemo doloremque? Adipisci possimus ipsam ipsum doloribus quaerat blanditiis repellat cum quo at ex mollitia beatae a libero, incidunt soluta ad saepe error! Blanditiis explicabo dignissimos amet debitis illo tenetur praesentium, expedita aspernatur dolor dolorum aliquid, dolorem ipsum. Dolore sit tempora amet placeat aspernatur hic, adipisci unde esse nesciunt impedit, saepe repellat molestias, perspiciatis sapiente rerum accusantium suscipit alias corporis! Mollitia, reprehenderit in repellendus eligendi sequi exercitationem accusamus corporis nisi dolor nam odit voluptatem quia quod vitae iure non quisquam eaque doloremque ad voluptatibus cupiditate maiores? Saepe in porro ex quia doloremque corporis cupiditate voluptas veniam. Quas officiis rerum provident.</p>
+          <a href="#">See more</a><br>
+          <a href="payment-form.html"><button>Buy now</button></a>
+        </div>
+      </div>
+    </div> 
+
+     <div id="pop-bg3" class="pop-bg">
+      <div id="popup3" class="popup">
+        <div class="popup-img"><img src="images/game7.jpg" alt=""></div>
+        <div class="popup-matter">
+          <span><img src="images/closing.png" alt="" width="40px" height="40px" onclick="popClose()"></span>
+          <h2>Valorant</h2>
+          <span style="color: red; font-size: 25px;">Treyarch</span><br>
+          <img src="images/rating-star.png" alt="" width="150px" height="30px">
+          <h3><span>16+</span>Rating</h3>
+          <h4><s>$15</s>&nbsp; &nbsp;$10</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti, hic excepturi, placeat harum rerum omnis, voluptas saepe ea maiores nemo doloremque? Adipisci possimus ipsam ipsum doloribus quaerat blanditiis repellat cum quo at ex mollitia beatae a libero, incidunt soluta ad saepe error! Blanditiis explicabo dignissimos amet debitis illo tenetur praesentium, expedita aspernatur dolor dolorum aliquid, dolorem ipsum. Dolore sit tempora amet placeat aspernatur hic, adipisci unde esse nesciunt impedit, saepe repellat molestias, perspiciatis sapiente rerum accusantium suscipit alias corporis! Mollitia, reprehenderit in repellendus eligendi sequi exercitationem accusamus corporis nisi dolor nam odit voluptatem quia quod vitae iure non quisquam eaque doloremque ad voluptatibus cupiditate maiores? Saepe in porro ex quia doloremque corporis cupiditate voluptas veniam. Quas officiis rerum provident.</p>
+          <a href="#">See more</a><br>
+          <a href="payment-form.html"><button>Buy now</button></a>
+        </div>
+      </div>
+    </div> 
+
+    <div id="pop-bg4" class="pop-bg">
+      <div id="popup4" class="popup">
+        <div class="popup-img"><img src="images/game1.jpg" alt=""></div>
+        <div class="popup-matter">
+          <span><img src="images/closing.png" alt="" width="40px" height="40px" onclick="popClose()"></span>
+          <h2>Act of War</h2>
+          <span style="color: red; font-size: 25px;">Treyarch</span><br>
+          <img src="images/rating-star.png" alt="" width="150px" height="30px">
+          <h3><span>16+</span>Rating</h3>
+          <h4><s>$15</s>&nbsp; &nbsp;$10</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti, hic excepturi, placeat harum rerum omnis, voluptas saepe ea maiores nemo doloremque? Adipisci possimus ipsam ipsum doloribus quaerat blanditiis repellat cum quo at ex mollitia beatae a libero, incidunt soluta ad saepe error! Blanditiis explicabo dignissimos amet debitis illo tenetur praesentium, expedita aspernatur dolor dolorum aliquid, dolorem ipsum. Dolore sit tempora amet placeat aspernatur hic, adipisci unde esse nesciunt impedit, saepe repellat molestias, perspiciatis sapiente rerum accusantium suscipit alias corporis! Mollitia, reprehenderit in repellendus eligendi sequi exercitationem accusamus corporis nisi dolor nam odit voluptatem quia quod vitae iure non quisquam eaque doloremque ad voluptatibus cupiditate maiores? Saepe in porro ex quia doloremque corporis cupiditate voluptas veniam. Quas officiis rerum provident.</p>
+          <a href="#">See more</a><br>
+          <a href="payment-form.html"><button>Buy now</button></a>
+        </div>
+      </div>
+    </div> 
+
+    <div id="pop-bg5" class="pop-bg">
+      <div id="popup5" class="popup">
+        <div class="popup-img"><img src="images/game2.jpg" alt=""></div>
+        <div class="popup-matter">
+          <span><img src="images/closing.png" alt="" width="40px" height="40px" onclick="popClose()"></span>
+          <h2>Fallout 3</h2>
+          <span style="color: red; font-size: 25px;">Treyarch</span><br>
+          <img src="images/rating-star.png" alt="" width="150px" height="30px">
+          <h3><span>16+</span>Rating</h3>
+          <h4><s>$15</s>&nbsp; &nbsp;$10</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti, hic excepturi, placeat harum rerum omnis, voluptas saepe ea maiores nemo doloremque? Adipisci possimus ipsam ipsum doloribus quaerat blanditiis repellat cum quo at ex mollitia beatae a libero, incidunt soluta ad saepe error! Blanditiis explicabo dignissimos amet debitis illo tenetur praesentium, expedita aspernatur dolor dolorum aliquid, dolorem ipsum. Dolore sit tempora amet placeat aspernatur hic, adipisci unde esse nesciunt impedit, saepe repellat molestias, perspiciatis sapiente rerum accusantium suscipit alias corporis! Mollitia, reprehenderit in repellendus eligendi sequi exercitationem accusamus corporis nisi dolor nam odit voluptatem quia quod vitae iure non quisquam eaque doloremque ad voluptatibus cupiditate maiores? Saepe in porro ex quia doloremque corporis cupiditate voluptas veniam. Quas officiis rerum provident.</p>
+          <a href="#">See more</a><br>
+          <a href="payment-form.html"><button>Buy now</button></a>
+        </div>
+      </div>
+    </div> 
+
+    <div id="pop-bg6" class="pop-bg">
+      <div id="popup6" class="popup">
+        <div class="popup-img"><img src="images/game8.jpg" alt=""></div>
+        <div class="popup-matter">
+          <span><img src="images/closing.png" alt="" width="40px" height="40px" onclick="popClose()"></span>
+          <h2>Fortnite</h2>
+          <span style="color: red; font-size: 25px;">Treyarch</span><br>
+          <img src="images/rating-star.png" alt="" width="150px" height="30px">
+          <h3><span>16+</span>Rating</h3>
+          <h4><s>$15</s>&nbsp; &nbsp;$10</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti, hic excepturi, placeat harum rerum omnis, voluptas saepe ea maiores nemo doloremque? Adipisci possimus ipsam ipsum doloribus quaerat blanditiis repellat cum quo at ex mollitia beatae a libero, incidunt soluta ad saepe error! Blanditiis explicabo dignissimos amet debitis illo tenetur praesentium, expedita aspernatur dolor dolorum aliquid, dolorem ipsum. Dolore sit tempora amet placeat aspernatur hic, adipisci unde esse nesciunt impedit, saepe repellat molestias, perspiciatis sapiente rerum accusantium suscipit alias corporis! Mollitia, reprehenderit in repellendus eligendi sequi exercitationem accusamus corporis nisi dolor nam odit voluptatem quia quod vitae iure non quisquam eaque doloremque ad voluptatibus cupiditate maiores? Saepe in porro ex quia doloremque corporis cupiditate voluptas veniam. Quas officiis rerum provident.</p>
+          <a href="#">See more</a><br>
+          <a href="payment-form.html"><button>Buy now</button></a>
+        </div>
+      </div>
+    </div>
+    
+    <div id="pop-bg7" class="pop-bg">
+      <div id="popup7" class="popup">
+        <div class="popup-img"><img src="images/game6.jpg" alt=""></div>
+        <div class="popup-matter">
+          <span><img src="images/closing.png" alt="" width="40px" height="40px" onclick="popClose()"></span>
+          <h2>grand theft auto (gta)</h2>
+          <span style="color: red; font-size: 25px;">Treyarch</span><br>
+          <img src="images/rating-star.png" alt="" width="150px" height="30px">
+          <h3><span>16+</span>Rating</h3>
+          <h4><s>$15</s>&nbsp; &nbsp;$10</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti, hic excepturi, placeat harum rerum omnis, voluptas saepe ea maiores nemo doloremque? Adipisci possimus ipsam ipsum doloribus quaerat blanditiis repellat cum quo at ex mollitia beatae a libero, incidunt soluta ad saepe error! Blanditiis explicabo dignissimos amet debitis illo tenetur praesentium, expedita aspernatur dolor dolorum aliquid, dolorem ipsum. Dolore sit tempora amet placeat aspernatur hic, adipisci unde esse nesciunt impedit, saepe repellat molestias, perspiciatis sapiente rerum accusantium suscipit alias corporis! Mollitia, reprehenderit in repellendus eligendi sequi exercitationem accusamus corporis nisi dolor nam odit voluptatem quia quod vitae iure non quisquam eaque doloremque ad voluptatibus cupiditate maiores? Saepe in porro ex quia doloremque corporis cupiditate voluptas veniam. Quas officiis rerum provident.</p>
+          <a href="#">See more</a><br>
+          <a href="payment-form.html"><button>Buy now</button></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="boxes">
+      <div class="container">
+        <div class="box1">
+          <div class="img"><img src="images/game3.jpg" alt="" id="game1"></div>
+        </div>
+
+        <div>
+          <span><button onclick="myStore1()">Buy Now</button></span>
+        </div>
+
+      </div>
+
+      <div class="container">
+        <div class="box2">
+          <div class="img"><img src="images/game4.jpg" alt="" /></div>
+        </div>
+
+        <div>
+          <span><button onclick="myStore2()">Buy Now</button></span>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="box3">
+          <div class="img"><img src="images/game5.jpg" alt="" /></div>
+        </div>
+
+        <div>
+          <span><button onclick="myStore3()">Buy Now</button></span>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="box4">
+          <div class="img"><img src="images/game7.jpg" alt="" /></div>
+        </div>
+
+        <div>
+          <span><button onclick="myStore4()">Buy Now</button></span>
+        </div>
+      </div>
+    </div>
+
+        <div class="boxes2">
+          <div class="container">
+            <div class="box5">
+              <div class="img"><img src="images/game1.jpg" alt="" /></div>
+            </div>
+
+            <div>
+              <span><button onclick="myStore5()">Buy Now</button></span>
+            </div>
+          </div>
+          <div class="container">
+            <div class="box6">
+              <div class="img"><img src="images/game2.jpg" alt="" /></div>
+            </div>
+
+            <div>
+              <span><button onclick="myStore6()">Buy Now</button></span>
+            </div>
+          </div>
+          <div class="container">
+            <div class="box7">
+              <div class="img"><img src="images/game8.jpg" alt="" /></div>
+            </div>
+
+            <div>
+              <span><button onclick="myStore7()">Buy Now</button></span>
+            </div>
+          </div>
+          <div class="container">
+            <div class="box8">
+              <div class="img"><img src="images/game6.jpg" alt="" /></div>
+
+            </div>
+
+            <div>
+              <span><button onclick="myStore8()">Buy Now</button></span>
+            </div>
+          </div>
+        </div>
+  </div>
+        <div class="see"><a href="#">See More</a></div>
+
+<!-- //Contact us content..... -->
+
+      <div class="contact" id="contact-us">
+        <h2>CONTACT US</h2>
+        <div class="contact-f">
+          <div class="design">
+            <h3>CONTACT FORM</h3>
+            <p>
+              Fill up the form and our team will get back to you within 24
+              hours.
+            </p>
+            <div class="information">
+              <ul>
+                <li>
+                  <img
+                    src="images/phone-call.png"
+                    alt=""
+                    width="30px"
+                    height="30px"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/email.png"
+                    alt=""
+                    width="30px"
+                    height="30px"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="images/location-pin.png"
+                    alt=""
+                    width="30px"
+                    height="30px"
+                  />
+                </li>
+              </ul>
+
+              <div class="info">
+                <ul>
+                  <li>0123 4567 8910</li>
+                  <li>gamestore@gmail.com</li>
+                  <li>f-5 b-block chhatarpur</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="images/facebook.png"
+                      alt=""
+                      width="30px"
+                      height="30px"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="images/instagram.png"
+                      alt=""
+                      width="30px"
+                      height="30px"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="images/twitter.png"
+                      alt=""
+                      width="30px"
+                      height="30px"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="form">
+            <form
+              name="form1"
+              action="../animation/chat-box.html"
+              method="post"
+            >
+              <div class="l-form">
+                <h3>First Name*</h3>
+                <span
+                  ><input
+                    type="text"
+                    placeholder="ENTER YOUR  FIRST NAME"
+                    name="first"
+                    id="first"
+                    onblur="myValidation()"
+                /></span>
+                <h4 id="f-name"></h4>
+
+                <h3>EMAIL*</h3>
+                <span
+                  ><input
+                    type="email"
+                    placeholder="ENTER YOUR EMAIL HERE"
+                    name="email"
+                    id="email"
+                    onblur="myValidation()"
+                /></span>
+                <h4 id="f-email"></h4>
+              </div>
+
+              <div class="R-form">
+                <h3>Last Name*</h3>
+                <span
+                  ><input
+                    type="text"
+                    placeholder="ENTER YOUR LAST NAME"
+                    name="last"
+                    id="last"
+                    onblur="myValidation()"
+                /></span>
+                <h4 id="l-name"></h4>
+
+                <h3>Phone</h3>
+                <span
+                  ><input
+                    type="tel"
+                    placeholder="ENTER YOUR NUMBER HERE"
+                    name="num"
+                    id="phone"
+                    onblur="myValidation()"
+                /></span>
+                <h4 id="f-phone"></h4>
+              </div>
+
+              <div class="b-form">
+                <h3>Message*</h3>
+                <span
+                  ><input
+                    type="message"
+                    placeholder="ENTER YOUR MESSAGE"
+                    name="message"
+                    id="message"
+                    onblur="myValidation()"
+                /></span>
+                <h4 id="f-message"></h4>
+              </div>
+              <div class="btn">
+                <input type="button" value="Submit" onclick="myValidation()">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+<!-- footer area -->
+
+      <div class="footer">
+        <div class="b-top" id="scroll">
+          <img src="images/top-arrow.png" alt=""  onclick="scrollToTop()" id="scroll"> 
+        </div>
+        <div class="foot1">
+        <div>
+        
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        
+        </div>
+        <div class="foot-ul">
+          <label>Resources</label>
+          <ul>
+            <li><a href="#">Support A Creator</a></li>
+            <li><a href="#">Publish on game store</a></li>
+            <li><a href="#">Carrers</a></li>
+            <li><a href="#">Company</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Fan art policy</a></li>
+            <li><a href="#">UX Reserch</a></li>
+            <li><a href="#">Store Eula</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Online Services</a></li>
+            <li><a href="#">Community rules</a></li>
+            <li><a href="#">Store newsroom</a></li>
+          </ul>
+        </div>
+        <div class="foot-ul1">
+          <label>Made by Gamestore</label>
+          <ul>
+            <li><a href="#">Battle breakers</a></li>
+            <li><a href="#">Fortnite</a></li>
+            <li><a href="#">Infinity blade</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Robo Recall</a></li>
+            <li><a href="#">Shadow complex</a></li>
+            <li><a href="#">Unreal tournament</a></li>
+          </ul>
+
+          <ul>
+            <li><a href="#">Beyable bush</a></li>
+            <li><a href="#">Asphalt denominator </a></li>
+            <li><a href="#">Easy to run</a></li>
+          </ul>
+        </div>
+        <hr>
+        <p>© 2022, Store Games, Inc. All rights reserved. Store, Store Games, the Store Games logo, Fortnite, the Fortnite logo, Unreal, Unreal Engine, the Unreal Engine logo, Unreal Tournament, and the Unreal Tournament logo are trademarks or registered trademarks of Store Games, Inc. in the United States of America and elsewhere. Other brands or product names are the trademarks of their respective owners. Non-US transactions through Store Games International, S.à r.l.   </p>
+        <span><ul>
+
+          <li><a href="#">Privacy policy</li></a>
+          <li><a href="#">Store refund policy</li></a>
+          <li><a href="#">Terms of Services</li></a>
+
+        </ul></span>
+
+        <span><img src="images/logo.png" alt=""></span>
+      </div>
+    </div>
+    <script src="myScript.js"></script>
+  </body>
+</html>

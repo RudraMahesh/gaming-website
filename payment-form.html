@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="payment-main">
+        <div class="payment-hero">
+            <div class="payment-left">
+                <img src="images/safe.png" alt="" width="80px" height="80px">
+                <h2>Safe <span>Pay</span></h2>
+                <h3>Enter Your Name*</h3>
+                <input type="text" placeholder="Your Name" name="y-name">
+                <span></span><br>
+                <h3>Enter Your Email*</h3>
+                <input type="email" placeholder="Your Email" name="y-email">
+                <span></span><br>
+                <span><h2>Card information</h2></span>
+
+                <div class="card-info">
+                    <h3>Card Type*</h3>
+                    <select>
+                        <option value="">Select Categories</option>
+                        <option value="Master Card">Master Card</option>
+                        <option value="Visa">Visa</option>
+                        <option value="Rupay">Rupay</option>
+                    </select><br>
+                    <h3>Card Number*</h3>
+                    <input type="tel" placeholder="Card Number" name="card-n" maxlength="16">
+                    <span></span><br>
+                    <h3>CVV Number*</h3>
+                    <span><input type="tel" placeholder="CVV Number" name="cvv-n" maxlength="3"></span>
+                    <span></span><br>
+                    <h3>Expiry Date*</h3>
+                    <input type="date" name="expiry">
+                    <input type="button" value="Pay now">
+                </div>
+            </div>
+            <div class="payment-right">
+                <img src="images/game6.jpg" width="350px" height="500px" id="pay-img">
+                <div class="right-bg">
+                    <ul class="left-ul">
+                        <li>Name-</li>
+                        <li>Game id-</li>
+                        <li>Devices-</li>
+                    </ul>
+                    <ul class="right-ul">
+                        <li>Grand theft auto(GTA)</li>
+                        <li>56473075</li>
+                        <li>Mac/window</li>
+                    </ul>
+                    <div class="pay">
+                        <h3>You have to <span>PAY</span></h3>
+                        <h5>30$</h5>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="myScript.js"></script>
+    
+</body>
+</html>
